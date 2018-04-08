@@ -1,0 +1,9 @@
+group 'eu.cwsfe.gradle.scripting'
+version '1.0-SNAPSHOT'
+
+apply plugin : 'org.example.greeting'
+
+hello {
+    message = "Holla"
+    recipient = "Kermit"
+}
